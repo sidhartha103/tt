@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    word-wrap: break-word;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: #999;
+    overflow-x: hidden !important;
+    background: #fff;
+}
+
+p {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: #999;
+    margin-bottom: 20px;
+}
+b {
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 55px;
+    
+}
+
+h2 {
+    font-size: 40px;
+    
+}
+
+h4 {
+    font-size: 20px;
+    color: #fff;
+    
+}
+h5{
+    font-size: 35px;
+   
+}
+.text{
+    color: #fff;
+}
+
+h1,
+h2,
+h4,h5 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    line-height: 1.25em;
+    margin: 0 0 20px 0;
+    
+}
+
+img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    
+}
+
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+
+.container {
+    padding: 1.2rem 6%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+}
+
+.navbar .logo-wrapper {
+    height: 29px;
+    overflow: hidden;
+
+}
+
+.logo-wrapper a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  
+}
+
+.logo-wrapper a strong {
+    font-family: 'Poppins', sans-serif;
+    
+    font-size: 25px;
+    color: #fff;
+    
+
+}
+.text{
+    font-family: 'Jost', sans-serif;
+}
+
+
+.navbar .navbar-links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar .navbar-links a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 28px;
+    color: black;
+    text-decoration: none;
+    text-shadow: 10px 10px 20px #313131;
+}
+
+.navbar .navbar-links a:hover {
+    color: black;
+    text-decoration: underline;
+
+}
+.container .grid-wrapper .image {
+    margin-top: 10px;
+}
+
+.header {
+    background-image: url(https://s3-alpha-sig.figma.com/img/eaa8/0c0a/f45cb63b0a2a4a6090e67ed6173a37be?Expires=1704067200&Signature=J8HwBoMO9RLGiix9cWfyDoAc9ECNoTTgQCFyWKrtWGZkzkG81jpxrHrIz2lU8ygVQ4VSoh37NmU018ALLu5-6vPNK3DWjLz5bG1SKToVJrkdNH4moAlF6k3pozA2Jxf7xfv7FublZ0zyA5w3lUV7RNvTgaHeulq2NIixKdFLwCIzCya0JOZZ~M7dyFuFRPaNZMhLAJXUPqndig2G5wLilvP~i3cy9b8j2jZXtpB8bb3RbE14Z421xGukAI4o7OeIf4ybhhwIZMsDka26~HnwOePUPqFqI18yrj5C9LTpkCipAweh87W6j2FrB4PCRxB84S9p~vzCrpfglL2s5AiHKQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+    min-height: 100vh;
+    background-color: #111;
+    background-position: center;
+    background-size: cover;
+    top: 0px;
+}
+
+.header {
+    min-height: 100vh;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.header .box {
+    max-width: 50%;
+    min-width: 300px;
+}
+
+.header .box h1 {
+    color: #fff;
+}
+.header .box p {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.header .box .btn {
+    padding: 0.25rem 1rem;
+    border: 1px solid #fff;
+    margin-right: 1rem;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 14px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.box{
+color: black;
+}
+.header .container .box {
+    text-align: center;
+    
+    
+    
+}
+.ccontainer {
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #000;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ===== FOOTER =====*/
+.footer {
+    background-color: #111;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: var(--font-semi);
+    padding: 0.2rem 0;
+    text-decoration: none;
+}
+.footer .ig{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer__title {
+    font-size: 2rem;
+    margin-bottom: var(--mb-4);
+}
+
+.footer__social {
+    margin-bottom: var(--mb-4);
+}
+
+.footer__icon {
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0 var(--mb-2);
+    transition: color .3s;
+}
+
+.footer__icon:hover {
+    color: var(--first-color);
+}
+
+.footer__copy {
+    font-size: var(--smaller-font-size);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.myGallery {
+    display: grid;
+    background-color: #111;
+    background-size: cover;
+    grid-gap: 20px;
+   
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+
+  .myGallery img {
+    width: 100%;
+  }
+  .myGallery img:hover{
+    scale: 1.1;
+  }
+  
+  
+  .myGallery .item {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .myGallery .item img {
+    vertical-align: middle;
+  }
+  
+  .myGallery .caption {
+    margin: 0;
+    padding: 1em;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+    transition: transform 0.5s;
+    transform: translateY(100%);
+    background: rgba(0, 0, 0, 0.7);
+    color: rgb(255, 255, 255);
+  }
+  
+  .myGallery .item:hover .caption {
+    transform: translateY(0%);
+  }
+  
+  @import url("https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;900&display=swap");
+  
+  body {
+    font: 400 1.5em/1.58 Vollkorn, serif;
+  }
+  
+  h1,
+  p {
+    text-align: center;
+  }
+  
+  .myGallery {
+    font-size: 1rem;
+  }
